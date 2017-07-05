@@ -1,7 +1,10 @@
 <div ng-repeat="movieInfo in moviesInfo">
-<div class="col-md-3">
+<div class="col-md-3 movie-grid">
     <div><a style="cursor:pointer" data-toggle="modal" data-target="#{{movieInfo.id}}"><img src="{{movieInfo.thumbnail}}" class="img-responsive"></a></div>
-    <div><h4>{{movieInfo.title}}</h4></div>
+    <div>
+      <h4>{{movieInfo.title}}</h4>
+      <p><span>{{movieInfo.genre}}</span><span>{{movieInfo.year}}</span></p>
+    </div>
 </div>
 <!-- Modal -->
   <div class="modal fade" id="{{movieInfo.id}}" role="dialog">
