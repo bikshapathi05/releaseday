@@ -9,6 +9,14 @@ app.config(function($routeProvider){
         templateUrl: "partials/movies/movies.tpl.html",
         controller: "moviesCtrl"
     })
+    .when("/telugu-movies", {
+        templateUrl: "partials/movies/telugu.tpl.html",
+        controller: "moviesCtrl"
+    })
+    .when("/hindi-movies", {
+        templateUrl: "partials/movies/hindi.tpl.html",
+        controller: "moviesCtrl"
+    })
     .when("/tv", {
         templateUrl: "partials/tv/tv.tpl.html",
         controller: "tvCtrl"

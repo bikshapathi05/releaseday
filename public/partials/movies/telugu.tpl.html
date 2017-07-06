@@ -1,10 +1,10 @@
-<!--<div class="col-md-12">
+<div class="col-md-12">
 <div class="pull-right">
   <select class="form-control" ng-model="movieSort" ng-options="x for x in genresInfo">
         
       </select>
   </div>
-  </div>-->
+  </div>
   <h4>Telugu</h4>
 <div ng-repeat="movieInfo in moviesInfo | filter: movieSort">
 
@@ -36,36 +36,7 @@
     </div>
   </div>
   </div>
-  <h4>Hindi</h4>
-  <div ng-repeat="movieInfo in hindiMoviesInfo | filter: movieSort">
-<div class="col-md-3 movie-grid">
-    <div><a style="cursor:pointer" data-toggle="modal" data-target="#{{movieInfo.id}}"><img src="{{movieInfo.thumbnail}}" class="img-responsive"></a></div>
-    <div>
-      <h4>{{movieInfo.title}}</h4>
-      <p><span>{{movieInfo.genre}}</span><span>{{movieInfo.year}}</span></p>
-    </div>
-</div>
-<!-- Modal -->
-  <div class="modal fade" id="{{movieInfo.id}}" role="dialog">
-    <div class="modal-dialog">
-    
-      <!-- Modal content -->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">{{movieInfo.title}}</h4>
-        </div>
-        <div class="modal-body">
-          <div><img src="{{movieInfo.imageUrl}}" class="img-responsive"></div>
-          <p>{{movieInfo.genre}}</p>
-          <p>{{movieInfo.duration}}</p>
-          <p>{{movieInfo.description}}</p>
-        </div>
-      </div>
-      
-    </div>
-  </div>
-  </div>
+
 
   <!--<div ng-repeat="genreInfo in genresInfo">
     <span>{{genreInfo.name}}</span>

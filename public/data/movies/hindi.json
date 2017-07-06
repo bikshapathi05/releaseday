@@ -1,5 +1,5 @@
 [{
-    "title":"Baahubali The Beginning",
+    "title":"Jolly LLB",
     "id":"1",
     "genre": "Action,Drama",
     "duration":"2hrs 33min",
@@ -11,7 +11,7 @@
 },
 {
     "id":"2",
-    "title":"Khaidi No. 150",
+    "title":"KAABIL",
     "genre": "Action,Drama",
     "duration":"2hrs 17min",
     "year":"2017",
@@ -22,7 +22,7 @@
 },
 {
     "id":"3",
-    "title":"Janatha Garage",
+    "title":"Hate story 3",
     "genre": "Action,Drama",
     "duration":"2hrs 33min",
     "year":"2016",
@@ -33,7 +33,7 @@
 },
 {
     "id":"4",
-    "title":"24",
+    "title":"MS Dhoni",
     "genre": "Thriller",
     "duration":"2hrs 38min",
     "year":"2016",
